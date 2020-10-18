@@ -22,7 +22,7 @@ class Login extends Component
         ];
 
         if (Auth::attempt($credentials)) {
-            return redirect()->to('/');
+            return redirect(route('home'));
         }
         else {
             $this->hasError = true;

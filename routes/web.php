@@ -7,6 +7,7 @@ use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
 use App\Http\Livewire\Home\Allposts;
 
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -24,7 +25,7 @@ Route::group(['middleware' => 'guest'], function () {
 });
 
 Route::group(['middleware' => 'auth'], function () {
-    Route::get('/', Home::class)->name('hom');
+    Route::get('/', Home::class)->name('home');
     Route::get('/allposts', Allposts::class)->name('allposts');
     Route::get('/logout', function () {
         Auth::logout();

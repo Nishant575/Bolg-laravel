@@ -38,7 +38,7 @@
 
                   </div>
                   <div class="card-footer" style="padding-top: 0.2rem; padding-bottom: 0.2rem; background-color: rgb(179, 242, 217);">
-                    <a class="card-link text-danger" wire:click="remove({{$post->id}})">Delete</a>
+                    <a class="card-link text-danger cursor-pointer" wire:click="remove({{$post->id}})">Delete</a>
                   </div>
               </div>
           </div>
