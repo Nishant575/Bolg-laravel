@@ -1,0 +1,55 @@
+body{
+
+  padding: 0%;
+  margin: 0%;
+}
+
+.jumbotron{
+
+
+  padding: 2rem , 2rem;
+}
+
+.head{
+
+  padding-top : 2rem;
+  padding-bottom: 2rem;
+  text-align: center;
+}
+
+.card{
+
+  width : 60%;
+}
+
+.message-box{
+
+  margin-bottom: 5%;
+
+  }
+
+.card-box{
+
+  margin-bottom: 3%;
+}
+.card-header{
+
+  padding-bottom: 0%;
+}
+
+h2{
+
+  margin-top: 5%
+}
+
+.ft{
+
+  padding-bottom: 0.2rem;
+  padding-top: 0.2rem;
+}
+
+.time{
+
+  font-size: 70%;
+  float: right;
+}
